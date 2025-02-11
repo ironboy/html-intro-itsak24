@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(18, 18, 112);
+  color: rgb(226, 221, 221);
+  margin: 0;
+}
+
+a {
+  color: rgb(169, 218, 236);
+}
+
+header {
+  background-color: rgb(3, 67, 13);
+  /* add som space inside the header */
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  background-color: white;
+  color: black;
+  width: 700px;
+  padding: 20px;
+  /* Make a tag/element centered */
+  margin: 20px auto;
+}
