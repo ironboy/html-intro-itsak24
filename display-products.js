@@ -6,7 +6,7 @@ let products = [
   },
   {
     name: 'Körsbärstomater (400 g)',
-    description: 'Små fina körsbärstomater odlad på Österlen av Gretchen, som arbetat med tomatolding i 45 år.',
+    description: 'Små fina körsbärstomater odlade på Österlen av Gretchen, som arbetat med tomatolding i 45 år.',
     priceSEK: 40
   },
   {
