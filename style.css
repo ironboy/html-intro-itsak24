@@ -60,3 +60,17 @@ main {
 .red-link {
   color: rgb(113, 9, 9);
 }
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  display: inline-block;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+nav .active {
+  color: white;
+}
