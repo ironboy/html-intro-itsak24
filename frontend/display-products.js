@@ -1,5 +1,5 @@
 // Get the content of products.json
-let productsRaw = await fetch('products.json');
+let productsRaw = await fetch('/api/products');
 // Unpack the content from JSON to a JavaScript 
 // data structure (an array of objects)
 let products = await productsRaw.json();
