@@ -1,20 +1,11 @@
-let products = [
-  {
-    name: 'Farfalle - ekologisk pasta (500g)',
-    description: 'Riktigt fin handgjord farfalle pasta. Gjorde enligt italiensk tradition. Odlad på äkta durumvete från Gotland.',
-    priceSEK: 25
-  },
-  {
-    name: 'Körsbärstomater (400 g)',
-    description: 'Små fina körsbärstomater odlade på Österlen av Gretchen, som arbetat med tomatolding i 45 år.',
-    priceSEK: 40
-  },
-  {
-    name: 'Karljohanssvamp (fryst, 1 kg)',
-    description: 'Karljohanssvamp av mycket hög kvalitet. Handplockad i svenska skogar.',
-    priceSEK: 500
-  }
-];
+// Get the content of products.json
+let productsRaw = await fetch('products.json');
+// Unpack the content from JSON to a JavaScript 
+// data structure (an array of objects)
+let products = await productsRaw.json();
+
+// A shorter but less readable version:
+// let products = await(await fetch('products.json')).json();
 
 let html = '';
 
