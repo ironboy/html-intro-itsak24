@@ -12,6 +12,7 @@ let html = '';
 for (let product of products) {
   html += `
     <article>
+      <img src="product-images/${product.id}.jpg" align="right">
       <h3>${product.name}</h3>
       <p>${product.description}</p>
       <p>Pris: ${product.priceSEK} kr</p>

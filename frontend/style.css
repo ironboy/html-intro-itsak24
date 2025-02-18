@@ -74,3 +74,22 @@ nav a {
 nav .active {
   color: white;
 }
+
+/* display product articles and images nicely */
+
+.product-list article {
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  min-height: 165px;
+}
+
+.product-list h3 {
+  margin-top: 0;
+}
+
+.product-list img {
+  width: 40%;
+  margin-left: 20px;
+}
